@@ -1,0 +1,179 @@
+/* Baseline */
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    font-size: 10px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: block;
+    width: 100vw;
+    font-size: 1.5rem;
+    background-color: white;
+    padding-top: 2.5rem;
+}
+#navright {
+    display: block;
+    float: right;
+    width: 5rem;
+    background-color: white;
+    text-decoration: none;
+    padding-right: 2rem;
+    color: rgba(0,0,0,0.87);
+}
+#navleft {
+    display: block;
+    float: left;
+    width: 5rem;
+    background-color: white;
+    text-decoration: none;
+    padding-left: 2rem;
+    color: rgba(0,0,0,0.87);
+}
+#navright:hover, #navleft:hover {
+    text-decoration: underline;
+}
+
+
+/*Google + Search bar portion */
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/*The big google logo*/
+#google-logo {
+    width: 30em;
+    height: 10em;
+    margin: 20rem 0 0 0;
+}
+
+/*The search bar */
+#fullsearchbar {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    padding: 0.5rem 0.8rem 0 1.4rem;
+    border: 1px solid #dfe1e5;
+    border-radius: 20rem;
+    height: 4.4rem;
+    width: 48.2rem;
+    }
+#fullsearchbar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+#searchbar-icon-glass {
+    height: 2.4rem;
+    width: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#searchbar {
+    height: 3.4rem;
+    width: 42.7rem;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    margin: 0 0 0 1.4rem;
+}
+#searchbar-icon-mic {
+    height: 2.4rem;
+    width: 2.4rem;
+    padding: 0 8px;
+}
+
+/*The buttons on the button of the home-page */
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 35rem;
+    margin-top: 2rem;
+}
+#google-search-button {
+    height: 4rem;
+    width: 25rem;
+    cursor: pointer;
+    color: #5F6368;
+    border: none;
+    font-size: 1.4rem;
+}
+#feeling-lucky-button {
+    height: 4rem;
+    width: 25rem;
+    margin-left: 3rem;
+    cursor: pointer;
+    color: #5F6368;
+    border: none;
+    font-size: 1.4rem;
+}
+#google-search-button:hover, #feeling-lucky-button:hover {
+    background-color: whitesmoke;
+    font-weight: bold;
+    border: 1px solid silver;
+    color: black;
+}
+
+
+/*French option */
+#french-version-text {
+    flex-direction: row;
+    width: 100rem;
+    font-size: 1.4rem;
+    margin-top: 4rem;
+}
+/*Putting in the Footers*/
+footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    position: fixed;
+
+}
+#canada-footer, #real-footer {
+    background-color: #f2f2f2;
+    width: 100vw;
+    font-size: 1.5rem;
+    border-top: 1px solid #e4e4e4;   
+}
+#canada-footer {
+    bottom: 6rem;
+    text-align: left;
+    padding: 2rem 0 0 8rem;
+    height: 4rem;
+    color: rgba(0,0,0,.54);
+
+}
+
+#real-footer {
+    padding: 2rem 0 0 0;
+    height: 4rem;
+}
+
+.left-footer {
+    background-color:#f2f2f2;
+    float: left;
+    width: 15rem;
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+
+}
+.right-footer {
+    background-color: #f2f2f2;
+    float: right;
+    width: 10rem;
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
